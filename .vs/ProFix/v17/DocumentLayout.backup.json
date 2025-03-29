@@ -3,22 +3,37 @@
   "WorkspaceRootPath": "C:\\Users\\Taleh\\source\\repos\\ProFix\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{AECB5EE0-D669-44B4-BA8B-C34BC4CBB832}|Dal.SqlServer\\Dal.SqlServer.csproj|c:\\users\\taleh\\source\\repos\\profix\\dal.sqlserver\\unitofwork\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AECB5EE0-D669-44B4-BA8B-C34BC4CBB832}|Dal.SqlServer\\Dal.SqlServer.csproj|solutionrelative:dal.sqlserver\\unitofwork\\sqlunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> main
     },
     {
       "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\serviceproviderprofiles\\handler\\updateserviceproviderhandlerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\serviceproviderprofiles\\handler\\updateserviceproviderhandlerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+=======
+>>>>>>> main
       "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\serviceproviderprofiles\\handler\\createserviceproviderprofilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\serviceproviderprofiles\\handler\\createserviceproviderprofilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+=======
       "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\common\\services\\activityloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\common\\services\\activityloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+>>>>>>> main
       "AbsoluteMoniker": "D:0:0:{AECB5EE0-D669-44B4-BA8B-C34BC4CBB832}|Dal.SqlServer\\Dal.SqlServer.csproj|c:\\users\\taleh\\source\\repos\\profix\\dal.sqlserver\\dal.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{AECB5EE0-D669-44B4-BA8B-C34BC4CBB832}|Dal.SqlServer\\Dal.SqlServer.csproj|solutionrelative:dal.sqlserver\\dal.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -27,6 +42,8 @@
       "RelativeMoniker": "D:0:0:{D2564FC8-2715-4B4D-BC12-5E63BBCAEA70}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+<<<<<<< HEAD
+=======
       "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -43,10 +60,13 @@
       "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+>>>>>>> main
       "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\clientprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\clientprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+<<<<<<< HEAD
+=======
       "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,6 +75,7 @@
       "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\activitylogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+>>>>>>> main
       "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\common\\interfaces\\iactivityloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\iactivityloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -83,12 +104,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
+              "Title": "SqlUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Dal.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Dal.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Dal.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+              "RelativeToolTip": "Dal.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T20:36:28.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+=======
+>>>>>>> main
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
               "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Program.cs",
               "RelativeToolTip": "WebApi\\Program.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAABqAAAAAAAAAA==",
+=======
               "ViewState": "AgIAAA8AAAAAAAAAAAAvwFIAAABqAAAAAAAAAA==",
+>>>>>>> main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T20:23:27.995Z",
               "EditorCaption": ""
@@ -101,14 +142,22 @@
               "RelativeDocumentMoniker": "Application\\CQRS\\ServiceProviderProfiles\\Handler\\UpdateServiceProviderHandlerProfile.cs",
               "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\ServiceProviderProfiles\\Handler\\UpdateServiceProviderHandlerProfile.cs",
               "RelativeToolTip": "Application\\CQRS\\ServiceProviderProfiles\\Handler\\UpdateServiceProviderHandlerProfile.cs",
+<<<<<<< HEAD
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
+=======
               "ViewState": "AgIAAB0AAAAAAAAAAAAvwDEAAAA3AAAAAAAAAA==",
+>>>>>>> main
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T20:23:14.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 3,
+=======
               "DocumentIndex": 2,
+>>>>>>> main
               "Title": "CreateServiceProviderProfileHandler.cs",
               "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\ServiceProviderProfiles\\Handler\\CreateServiceProviderProfileHandler.cs",
               "RelativeDocumentMoniker": "Application\\CQRS\\ServiceProviderProfiles\\Handler\\CreateServiceProviderProfileHandler.cs",
@@ -116,6 +165,9 @@
               "RelativeToolTip": "Application\\CQRS\\ServiceProviderProfiles\\Handler\\CreateServiceProviderProfileHandler.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAvwDMAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2025-03-29T20:23:01.754Z"
+=======
               "WhenOpened": "2025-03-29T20:23:01.754Z",
               "EditorCaption": ""
             },
@@ -131,36 +183,55 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T20:22:08.078Z",
               "EditorCaption": ""
+>>>>>>> main
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+<<<<<<< HEAD
+              "Title": "Dal.SqlServer.csproj",
+=======
               "Title": "Dal.SqlServer",
+>>>>>>> main
               "DocumentMoniker": "C:\\Users\\Taleh\\Source\\Repos\\ProFix\\Dal.SqlServer\\Dal.SqlServer.csproj",
               "RelativeDocumentMoniker": "Dal.SqlServer\\Dal.SqlServer.csproj",
               "ToolTip": "C:\\Users\\Taleh\\Source\\Repos\\ProFix\\Dal.SqlServer\\Dal.SqlServer.csproj",
               "RelativeToolTip": "Dal.SqlServer\\Dal.SqlServer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+<<<<<<< HEAD
+              "WhenOpened": "2025-03-29T20:21:58.54Z"
+=======
               "WhenOpened": "2025-03-29T20:21:58.54Z",
               "EditorCaption": ""
+>>>>>>> main
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
+              "Title": "Repository.csproj",
+=======
               "Title": "Repository",
+>>>>>>> main
               "DocumentMoniker": "C:\\Users\\Taleh\\Source\\Repos\\ProFix\\Repository\\Repository.csproj",
               "RelativeDocumentMoniker": "Repository\\Repository.csproj",
               "ToolTip": "C:\\Users\\Taleh\\Source\\Repos\\ProFix\\Repository\\Repository.csproj",
               "RelativeToolTip": "Repository\\Repository.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+<<<<<<< HEAD
+              "WhenOpened": "2025-03-29T20:21:53.145Z"
+=======
               "WhenOpened": "2025-03-29T20:21:53.145Z",
               "EditorCaption": ""
+>>>>>>> main
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< HEAD
+=======
               "Title": "NotificationController.cs",
               "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\NotificationController.cs",
@@ -213,6 +284,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
+>>>>>>> main
               "Title": "ClientProfileController.cs",
               "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\ClientProfileController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\ClientProfileController.cs",
@@ -220,6 +292,13 @@
               "RelativeToolTip": "WebApi\\Controllers\\ClientProfileController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2025-03-29T20:21:29.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+=======
               "WhenOpened": "2025-03-29T20:21:29.375Z",
               "EditorCaption": ""
             },
@@ -252,6 +331,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 13,
+>>>>>>> main
               "Title": "IActivityLoggerService.cs",
               "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Common\\Interfaces\\IActivityLoggerService.cs",
               "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\IActivityLoggerService.cs",
@@ -259,8 +339,12 @@
               "RelativeToolTip": "Application\\Common\\Interfaces\\IActivityLoggerService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2025-03-29T20:20:56.395Z"
+=======
               "WhenOpened": "2025-03-29T20:20:56.395Z",
               "EditorCaption": ""
+>>>>>>> main
             }
           ]
         }
