@@ -2,6 +2,7 @@
 using Application.CQRS.SubscriptionPlans.Commands.Requests;
 using Application.CQRS.SubscriptionPlans.DTOs;
 using AutoMapper;
+using Common.Exceptions;
 using Common.GlobalResponse;
 using MediatR;
 using Repository.Common;
@@ -25,18 +26,14 @@ public class DeleteSubscriptionPlanHandler(IUnitOfWork unitOfWork, IMapper mappe
         var subscriptionPlanEntity = await _unitOfWork.SubscriptionPlanRepository.GetByIdAsync(request.SubscriptionPlanDto.Id);
         if (subscriptionPlanEntity == null)
         {
-            return new ResponseModel<DeleteSubscriptionPlanDto>
-            {
-                IsSuccess = false,
-                Errors = ["Subscription plan not found."]
-            };
+            throw new NotFoundException("SubscriptionPlan not found.");
         }
 
         subscriptionPlanEntity.DeletedBy = request.SubscriptionPlanDto.DeletedByUserId;
         subscriptionPlanEntity.DeletedReason = request.SubscriptionPlanDto.Reason;
         subscriptionPlanEntity.DeletedAt = DateTime.UtcNow;
 
-        await _unitOfWork.SubscriptionPlanRepository.UpdateAsync(subscriptionPlanEntity);
+        await _unitOfWork.SubscriptionPlanRepository.DeleteAsync(subscriptionPlanEntity);
         await _unitOfWork.SaveChangesAsync();
 
         var currentUserId = _userContext.GetCurrentUserId();

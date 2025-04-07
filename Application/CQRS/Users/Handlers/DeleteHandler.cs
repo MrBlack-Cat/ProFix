@@ -10,8 +10,9 @@ namespace Application.CQRS.Users.Handlers;
 
 public class DeleteHandler
 {
-    public record struct Command : IRequest<ResponseModel<Unit>>
+    public class Command : IRequest<ResponseModel<Unit>>
     {
+
         public int Id { get; set; }
         public int DeletedBy { get; set; }
         public string DeletedReason { get; set; }

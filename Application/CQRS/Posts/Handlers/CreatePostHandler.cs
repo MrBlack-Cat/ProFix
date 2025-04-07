@@ -76,8 +76,7 @@ public class CreatePostHandler
 
             #region ActivityLog
 
-
-            await _activityLogger.LogAsync(
+                await _activityLogger.LogAsync(
 
 
             userId: currenUserId.Value,
@@ -90,7 +89,7 @@ public class CreatePostHandler
 
             );
 
-
+         
             #endregion
 
 

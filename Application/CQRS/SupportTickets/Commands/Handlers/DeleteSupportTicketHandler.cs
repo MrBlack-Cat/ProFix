@@ -29,6 +29,12 @@ public class DeleteSupportTicketHandler(IUnitOfWork unitOfWork, IMapper mapper ,
         if (supportTicketEntity == null)
             throw new NotFoundException("Support ticket not found.");
 
+        supportTicketEntity.DeletedReason = request.SupportTicketDto.DeletedReason;
+        supportTicketEntity.DeletedBy = request.SupportTicketDto.DeletedByUserId;
+
+
+
+
         // Dəstək biletini silirik
         await _unitOfWork.SupportTicketRepository.DeleteAsync(supportTicketEntity);
         await _unitOfWork.SaveChangesAsync();

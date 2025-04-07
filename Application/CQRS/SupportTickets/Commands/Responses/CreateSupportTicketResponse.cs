@@ -9,12 +9,11 @@ using System.Threading.Tasks;
 
 namespace Application.CQRS.SupportTickets.Commands.Responses;
 
-public class CreateSupportTicketRequest : IRequest<ResponseModel<CreateSupportTicketDto>>
+public class CreateSupportTicketResponse : ResponseModel<CreateSupportTicketDto>
 {
-    public CreateSupportTicketDto SupportTicketDto { get; set; }
-
-    public CreateSupportTicketRequest(CreateSupportTicketDto supportTicketDto)
+    public CreateSupportTicketResponse(CreateSupportTicketDto data)
     {
-        SupportTicketDto = supportTicketDto;
+        Data = data;
+        IsSuccess = true;
     }
 }

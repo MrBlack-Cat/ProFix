@@ -11,4 +11,5 @@ namespace Repository.Repositories;
 public interface IPostRepository : IRepository<Post>
 {
     Task<IEnumerable<Post>> GetByServiceProviderIdAsync(int serviceProviderProfileId);
+    //Task DeleteAsync(int id, string deletedReason, int deletedBy);
 }

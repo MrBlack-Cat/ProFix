@@ -13,7 +13,13 @@ namespace WebApi.Controllers
     public class SubscriptionPlanController : ControllerBase
     {
 
-        private readonly IMediator _mediator;   
+        private readonly IMediator _mediator;
+
+
+        public SubscriptionPlanController(IMediator mediator)
+        {
+            _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
+        }
 
         [HttpPost("Create")]
         public async Task<ActionResult<ResponseModel<CreateSubscriptionPlanDto>>> CreateSubscriptionPlan([FromBody] CreateSubscriptionPlanDto subscriptionPlanDto)

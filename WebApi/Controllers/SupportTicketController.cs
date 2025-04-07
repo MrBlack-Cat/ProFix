@@ -1,4 +1,5 @@
-﻿using Application.CQRS.SupportTickets.Commands.Requests;
+﻿using Application.CQRS.SubscriptionPlans.DTOs;
+using Application.CQRS.SupportTickets.Commands.Requests;
 using Application.CQRS.SupportTickets.DTOs;
 using Application.CQRS.SupportTickets.Queries.Requests;
 using Common.GlobalResponse;
@@ -15,9 +16,23 @@ namespace WebApi.Controllers
 
         private readonly IMediator _mediator;
 
+
+        public SupportTicketController(IMediator mediator)
+        {
+            _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
+        }
+
         [HttpPost("Create")]
         public async Task<ActionResult<ResponseModel<CreateSupportTicketDto>>> CreateSupportTicket([FromBody] CreateSupportTicketDto supportTicketDto)
         {
+
+            if (supportTicketDto == null)
+                return BadRequest(new ResponseModel<CreateSupportTicketDto>
+                {
+                    IsSuccess = false,
+                    Errors = ["Invalid support ticket data."]
+                });
+
             var command = new CreateSupportTicketRequest(supportTicketDto);
             var result = await _mediator.Send(command);
 

@@ -6,5 +6,5 @@ public class CreateReviewDto
     public int ServiceProviderProfileId { get; set; }
     public int Rating { get; set; } // 1–5
     public string? Comment { get; set; }
-    public string? CreatedBy { get; set; }
+    public int? CreatedBy { get; set; }
 }

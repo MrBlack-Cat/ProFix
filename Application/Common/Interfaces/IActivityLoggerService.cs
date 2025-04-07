@@ -15,6 +15,7 @@ namespace Application.Common.Interfaces;
             string entityType,
             int entityId,
         List<int>? entityIds = null, // yeni elave eledim GetList zamani hamsini ekrana almaq ucun 
+            int ? DeletedBy = null,
             int? performedBy = null,
             string? description = null);
 
