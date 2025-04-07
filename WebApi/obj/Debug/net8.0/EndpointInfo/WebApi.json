@@ -1069,7 +1069,8 @@
             "name": "PostDto.UpdatedBy",
             "in": "query",
             "schema": {
-              "type": "string"
+              "type": "integer",
+              "format": "int32"
             }
           }
         ],
@@ -1096,23 +1097,7 @@
             }
           },
           {
-            "name": "Id",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "DeletedBy",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "DeletedReason",
+            "name": "reason",
             "in": "query",
             "schema": {
               "type": "string"
@@ -2622,7 +2607,8 @@
             "nullable": true
           },
           "createdBy": {
-            "type": "string",
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },
@@ -2672,7 +2658,8 @@
             "nullable": true
           },
           "createdBy": {
-            "type": "string",
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },
@@ -2789,7 +2776,8 @@
             "format": "date-time"
           },
           "createdBy": {
-            "type": "string",
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },
@@ -2834,7 +2822,8 @@
             "format": "int32"
           },
           "createdBy": {
-            "type": "string",
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },
@@ -2909,7 +2898,7 @@
             "format": "int32",
             "nullable": true
           },
-          "reason": {
+          "deletedReason": {
             "type": "string",
             "nullable": true
           }
@@ -3019,10 +3008,11 @@
             "format": "int32"
           },
           "deletedByUserId": {
-            "type": "string",
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           },
-          "reason": {
+          "deletedReason": {
             "type": "string",
             "nullable": true
           }
@@ -3750,7 +3740,8 @@
             "nullable": true
           },
           "updatedBy": {
-            "type": "string",
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },
@@ -3796,7 +3787,8 @@
             "nullable": true
           },
           "updatedBy": {
-            "type": "string",
+            "type": "integer",
+            "format": "int32",
             "nullable": true
           }
         },

@@ -17,6 +17,10 @@ namespace WebApi.Controllers
     {
         private readonly IMediator _mediator;
 
+        public ReviewController(IMediator mediator)
+        {
+            _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
+        }
 
         [HttpPost("Create")]
         public async Task<ActionResult<ResponseModel<CreateReviewDto>>> Create([FromBody] CreateReviewDto dto)

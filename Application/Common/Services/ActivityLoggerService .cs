@@ -23,6 +23,7 @@ public class ActivityLoggerService(IUnitOfWork unitOfWork, ILoggerService logger
         string entityType,
         int entityId,
         List<int>? entityIds = null, //burada elave eledim 
+        int? DeletedBy = null,
         int? performedBy = null,
         string? description = null)
     {

@@ -7,5 +7,5 @@ public class CreateServiceBookingDto
     public string? Description { get; set; }
     public int StatusId { get; set; }
     public DateTime? ScheduledDate { get; set; }
-    public string? CreatedBy { get; set; }
+    public int? CreatedBy { get; set; }
 }

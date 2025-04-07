@@ -9,6 +9,7 @@ namespace Domain.Entities;
 
 public class Post : BaseEntity
 {
+
     public int ServiceProviderProfileId { get; set; }
     public string Title { get; set; } = null!;
     public string? Content { get; set; }

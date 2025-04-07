@@ -17,10 +17,26 @@ namespace WebApi.Controllers
     {
         private readonly IMediator _mediator;
 
+        public ServiceBookingController(IMediator mediator)
+        {
+            _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
+        }
+
+
 
         [HttpPost]
         public async Task<ActionResult<ResponseModel<CreateServiceBookingDto>>> Create([FromBody] CreateServiceBookingDto dto)
         {
+
+            if (dto == null)
+                return BadRequest(new ResponseModel<CreateServiceBookingDto>
+                {
+                    IsSuccess = false,
+                    Errors = ["Request body cannot be null."]
+                });
+
+
+
             if (dto.ClientProfileId <= 0 || dto.ServiceProviderProfileId <= 0 || dto.StatusId <= 0)
                 return BadRequest(new ResponseModel<CreateServiceBookingDto>
                 {
@@ -75,6 +91,13 @@ namespace WebApi.Controllers
         {
             var query = new ServiceBookingListQuery();
             var result = await _mediator.Send(query);
+
+
+            if (result == null)
+            {
+                throw new NullReferenceException("Query result is null. Check MediatR handler implementation.");
+            }
+
 
             return result.IsSuccess ? Ok(result) : NotFound(result);
         }

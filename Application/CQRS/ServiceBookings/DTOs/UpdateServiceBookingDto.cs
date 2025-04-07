@@ -6,5 +6,5 @@ public class UpdateServiceBookingDto
     public string? Description { get; set; }
     public int StatusId { get; set; }
     public DateTime? ScheduledDate { get; set; }
-    public string? UpdatedBy { get; set; }
+    public int? UpdatedBy { get; set; }
 }

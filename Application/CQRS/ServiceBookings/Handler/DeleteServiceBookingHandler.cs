@@ -32,7 +32,7 @@ public class DeleteServiceBookingHandler
             {
                 Id = booking.Id,
                 DeletedByUserId = request.DeletedByUserId,
-                Reason = request.Reason
+                DeletedReason = request.Reason
             };
 
             await _unitOfWork.ServiceBookingRepository.DeleteAsync(booking);

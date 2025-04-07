@@ -1,0 +1,9 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Dal.SqlServer",
+    "\\Dal.SqlServer\\UnitOfWork"
+  ],
+  "SelectedNode": "\\Dal.SqlServer\\UnitOfWork\\SqlUnitOfWork.cs",
+  "PreviewInSolutionExplorer": false
+}

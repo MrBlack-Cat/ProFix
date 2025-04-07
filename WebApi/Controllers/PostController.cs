@@ -1,6 +1,9 @@
-﻿using Application.CQRS.Posts.DTOs;
+﻿using Application.Common.Interfaces;
+using Application.CQRS.Posts.DTOs;
 using Application.CQRS.Posts.Handlers;
+using Common.Exceptions;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,10 +14,12 @@ namespace WebApi.Controllers;
 public class PostController : ControllerBase
 {
     private readonly IMediator _mediator;
+    private readonly IUserContext _userContext;
 
-    public PostController( IMediator mediator)
+    public PostController( IMediator mediator , IUserContext userContext)
     {
-        _mediator = mediator;   
+        _mediator = mediator;
+        _userContext = userContext;
 
     }
 
@@ -80,21 +85,21 @@ public class PostController : ControllerBase
 
 
     [HttpDelete("Delete/{id}")]
-    public async Task<IActionResult> DeletePost(int id, [FromQuery] DeletePostHandler.Command command)
+    [Authorize]
+    public async Task<IActionResult> DeletePost(int id, [FromQuery] string reason)
     {
-        if (id != command.Id)
-        {
-            return BadRequest("ID mismatch between route parameter and request body.");
-        }
+        if (string.IsNullOrWhiteSpace(reason))
+            throw new BadRequestException("Delete reason is required.");
 
-        var response = await _mediator.Send(command);
 
-        if (response.IsSuccess)
-        {
-            return Ok(new { message = "Post successfully deleted." });
-        }
+        var userId = _userContext.MustGetUserId();
+        var command = new DeletePostHandler.Command(id ,userId, reason);
 
-        return BadRequest(response.Errors);
+        var result = await _mediator.Send(command);
+
+        return Ok(result);
+
+
     }
 
 

@@ -1,5 +1,10 @@
-﻿ALTER TABLE Post ADD CreatedBy int null
-
-ALTER TABLE Post ADD IsDeleted BIT NOT NULL DEFAULT 0
-
-ALTER TABLE ServiceProviderProfile ADD IsDeleted BIT DEFAULT 0;
+﻿ALTER TABLE SubscriptionPlan
+ADD 
+    CreatedAt DATETIME2 NOT NULL DEFAULT GETUTCDATE(), 
+    UpdatedAt DATETIME2 NULL, 
+    DeletedAt DATETIME2 NULL,
+    CreatedBy INT NULL,
+    UpdatedBy INT NULL,
+    DeletedBy INT NULL,
+    DeletedReason TEXT NULL,
+    IsDeleted BIT NOT NULL DEFAULT 0;
