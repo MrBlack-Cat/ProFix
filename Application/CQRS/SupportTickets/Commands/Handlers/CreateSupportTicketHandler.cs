@@ -16,6 +16,9 @@ namespace Application.CQRS.SupportTickets.Commands.Handlers;
 
 public class CreateSupportTicketHandler(IUnitOfWork unitOfWork, IMapper mapper , IActivityLoggerService activityLogger , IUserContext userContext) : IRequestHandler<CreateSupportTicketRequest, ResponseModel<CreateSupportTicketDto>>
 {
+
+
+
     private readonly IUnitOfWork _unitOfWork = unitOfWork;
     private readonly IMapper _mapper = mapper;
     private readonly IActivityLoggerService _activityLogger = activityLogger;
@@ -23,6 +26,12 @@ public class CreateSupportTicketHandler(IUnitOfWork unitOfWork, IMapper mapper ,
 
     public async Task<ResponseModel<CreateSupportTicketDto>> Handle(CreateSupportTicketRequest request, CancellationToken cancellationToken)
     {
+
+        if (request.SupportTicketDto == null)
+        {
+            throw new ArgumentNullException(nameof(request.SupportTicketDto), "Support ticket DTO cannot be null.");
+        }
+
         var supportTicketEntity = _mapper.Map<SupportTicket>(request.SupportTicketDto);
         await _unitOfWork.SupportTicketRepository.AddAsync(supportTicketEntity);
         await _unitOfWork.SaveChangesAsync();
@@ -35,6 +44,7 @@ public class CreateSupportTicketHandler(IUnitOfWork unitOfWork, IMapper mapper ,
             userId: currentUserId.Value,  
             action: "Create",  
             entityType: "SupportTicket",  
+            DeletedBy: currentUserId.Value,
             entityId: supportTicketEntity.Id,
             performedBy: currentUserId,  
             description: $"User {currentUserId.Value} created a new support ticket with ID: {supportTicketEntity.Id}."  

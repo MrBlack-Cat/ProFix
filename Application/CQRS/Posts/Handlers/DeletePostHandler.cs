@@ -15,15 +15,13 @@ namespace Application.CQRS.Posts.Handlers;
 
 public class DeletePostHandler
 {
-    public record struct Command : IRequest<ResponseModel<DeletePostDto>>
+    public record Command (int Id , int DeletedByUserId , string DeletedReason) : IRequest<ResponseModel<string>>
     {
-        public int Id { get; set; }
-        public int DeletedBy { get; set; }
-        public string DeletedReason { get; set; }
+
     }
 
 
-    public sealed class Handler(IUnitOfWork unitWork, IUserContext userContext, IMapper mapper, IActivityLoggerService activityLogger) : IRequestHandler<Command, ResponseModel<DeletePostDto>>
+    public sealed class Handler(IUnitOfWork unitWork, IUserContext userContext, IMapper mapper, IActivityLoggerService activityLogger) : IRequestHandler<Command, ResponseModel<string>>
     {
         private readonly IUnitOfWork _unitWork = unitWork;
         private readonly IUserContext _userContext = userContext;
@@ -31,8 +29,7 @@ public class DeletePostHandler
         private readonly IActivityLoggerService _activityLogger = activityLogger;
 
 
-
-        public async Task<ResponseModel<DeletePostDto>> Handle(Command request, CancellationToken cancellationToken)
+        async Task<ResponseModel<string>> IRequestHandler<Command, ResponseModel<string>>.Handle(Command request, CancellationToken cancellationToken)
         {
 
             var currentUserId = _userContext.GetCurrentUserId();
@@ -48,7 +45,7 @@ public class DeletePostHandler
 
             //command i posta ceviririk 
             _mapper.Map(request, post);
-            post.DeletedBy = request.DeletedBy;
+            post.DeletedBy = request.DeletedByUserId;
 
 
             await _unitWork.PostRepository.DeleteAsync(post);
@@ -69,12 +66,14 @@ public class DeletePostHandler
 
             #endregion
 
-            return new ResponseModel<DeletePostDto>
+            return new ResponseModel<string>
             {
-                Data = _mapper.Map<DeletePostDto>(post),
+                Data  = "Post deleted successfully",
                 IsSuccess = true
             };
         }
+
+       
     }
 
 

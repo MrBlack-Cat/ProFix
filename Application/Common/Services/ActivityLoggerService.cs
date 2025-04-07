@@ -21,6 +21,7 @@ public class ActivityLoggerService : IActivityLoggerService
         string entityType,
         int entityId,
         List<int>? entityIds = null,
+        int? deletedBy = null,
         int? performedBy = null,
         string? description = null)
     {

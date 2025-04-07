@@ -12,5 +12,12 @@ public class SupportTicketProfile : Profile
         CreateMap<SupportTicket, UpdateSupportTicketDto>().ReverseMap();
         CreateMap<SupportTicket, GetSupportTicketByIdDto>().ReverseMap();
         CreateMap<SupportTicket, SupportTicketListDto>().ReverseMap();
+
+
+        CreateMap<SupportTicket, DeleteSupportTicketDto>()
+    .ForMember(dest => dest.DeletedReason, opt => opt.MapFrom(src => src.DeletedReason))
+    .ForMember(dest => dest.DeletedByUserId, opt => opt.MapFrom(src => src.DeletedBy));
+
+
     }
 }

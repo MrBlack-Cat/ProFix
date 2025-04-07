@@ -3,60 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Taleh\\source\\repos\\ProFix\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\mappings\\supportticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\mappings\\supportticketprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\serviceproviderprofiles\\handler\\updateserviceproviderhandlerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\serviceproviderprofiles\\handler\\updateserviceproviderhandlerprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\subscriptionplans\\commands\\handlers\\deletesubscriptionplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\subscriptionplans\\commands\\handlers\\deletesubscriptionplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\serviceproviderprofiles\\handler\\createserviceproviderprofilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\serviceproviderprofiles\\handler\\createserviceproviderprofilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\subscriptionplans\\dtos\\deletesubscriptionplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\subscriptionplans\\dtos\\deletesubscriptionplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\common\\services\\activityloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\common\\services\\activityloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\supporttickets\\dtos\\deletesupportticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\supporttickets\\dtos\\deletesupportticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AECB5EE0-D669-44B4-BA8B-C34BC4CBB832}|Dal.SqlServer\\Dal.SqlServer.csproj|c:\\users\\taleh\\source\\repos\\profix\\dal.sqlserver\\dal.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{AECB5EE0-D669-44B4-BA8B-C34BC4CBB832}|Dal.SqlServer\\Dal.SqlServer.csproj|solutionrelative:dal.sqlserver\\dal.sqlserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\mappings\\subscriptionplanprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\mappings\\subscriptionplanprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D2564FC8-2715-4B4D-BC12-5E63BBCAEA70}|Repository\\Repository.csproj|c:\\users\\taleh\\source\\repos\\profix\\repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{D2564FC8-2715-4B4D-BC12-5E63BBCAEA70}|Repository\\Repository.csproj|solutionrelative:repository\\repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{D55182CB-DF18-4C76-A085-0B2064AC18E3}|Domain\\Domain.csproj|c:\\users\\taleh\\source\\repos\\profix\\domain\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55182CB-DF18-4C76-A085-0B2064AC18E3}|Domain\\Domain.csproj|solutionrelative:domain\\baseentities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D55182CB-DF18-4C76-A085-0B2064AC18E3}|Domain\\Domain.csproj|c:\\users\\taleh\\source\\repos\\profix\\domain\\entities\\subscriptionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D55182CB-DF18-4C76-A085-0B2064AC18E3}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\subscriptionplan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\subscriptionplans\\commands\\handlers\\createsubscriptionplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\subscriptionplans\\commands\\handlers\\createsubscriptionplanhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\guaranteedocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\guaranteedocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\supporttickets\\commands\\handlers\\createsupporttickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\supporttickets\\commands\\handlers\\createsupporttickethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\subscriptionplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\subscriptionplancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\clientprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\clientprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\supportticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\supportticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\certificatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\subscriptionplans\\commands\\requests\\createsubscriptionplanrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\subscriptionplans\\commands\\requests\\createsubscriptionplanrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|c:\\users\\taleh\\source\\repos\\profix\\webapi\\controllers\\activitylogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{194D502A-5DFB-483D-A970-1D1A6CD3BEE1}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\activitylogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\subscriptionplans\\commands\\responses\\createsubscriptionplanresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\subscriptionplans\\commands\\responses\\createsubscriptionplanresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\common\\interfaces\\iactivityloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\common\\interfaces\\iactivityloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|c:\\users\\taleh\\source\\repos\\profix\\application\\cqrs\\subscriptionplans\\dtos\\createsubscriptionplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EECFB273-8CDB-4B04-A556-B8A90B39B873}|Application\\Application.csproj|solutionrelative:application\\cqrs\\subscriptionplans\\dtos\\createsubscriptionplandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,8 +66,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubscriptionPlanProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Mappings\\SubscriptionPlanProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Mappings\\SubscriptionPlanProfile.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Mappings\\SubscriptionPlanProfile.cs",
+              "RelativeToolTip": "Application\\Mappings\\SubscriptionPlanProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:16:20.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeleteSupportTicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SupportTickets\\DTOs\\DeleteSupportTicketDto.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\SupportTickets\\DTOs\\DeleteSupportTicketDto.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SupportTickets\\DTOs\\DeleteSupportTicketDto.cs",
+              "RelativeToolTip": "Application\\CQRS\\SupportTickets\\DTOs\\DeleteSupportTicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:14:55.073Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -82,184 +108,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAvwFIAAABqAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Domain\\BaseEntities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Domain\\BaseEntities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Domain\\BaseEntities\\BaseEntity.cs",
+              "RelativeToolTip": "Domain\\BaseEntities\\BaseEntity.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:23:27.995Z",
+              "WhenOpened": "2025-04-06T14:49:22.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UpdateServiceProviderHandlerProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\ServiceProviderProfiles\\Handler\\UpdateServiceProviderHandlerProfile.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\ServiceProviderProfiles\\Handler\\UpdateServiceProviderHandlerProfile.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\ServiceProviderProfiles\\Handler\\UpdateServiceProviderHandlerProfile.cs",
-              "RelativeToolTip": "Application\\CQRS\\ServiceProviderProfiles\\Handler\\UpdateServiceProviderHandlerProfile.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAvwDEAAAA3AAAAAAAAAA==",
+              "Title": "DeleteSubscriptionPlanHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\Commands\\Handlers\\DeleteSubscriptionPlanHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\SubscriptionPlans\\Commands\\Handlers\\DeleteSubscriptionPlanHandler.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\Commands\\Handlers\\DeleteSubscriptionPlanHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\SubscriptionPlans\\Commands\\Handlers\\DeleteSubscriptionPlanHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:23:14.712Z",
+              "WhenOpened": "2025-04-06T15:13:28.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CreateServiceProviderProfileHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\ServiceProviderProfiles\\Handler\\CreateServiceProviderProfileHandler.cs",
-              "RelativeDocumentMoniker": "Application\\CQRS\\ServiceProviderProfiles\\Handler\\CreateServiceProviderProfileHandler.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\ServiceProviderProfiles\\Handler\\CreateServiceProviderProfileHandler.cs",
-              "RelativeToolTip": "Application\\CQRS\\ServiceProviderProfiles\\Handler\\CreateServiceProviderProfileHandler.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAvwDMAAABgAAAAAAAAAA==",
+              "Title": "DeleteSubscriptionPlanDto.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\DTOs\\DeleteSubscriptionPlanDto.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\SubscriptionPlans\\DTOs\\DeleteSubscriptionPlanDto.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\DTOs\\DeleteSubscriptionPlanDto.cs",
+              "RelativeToolTip": "Application\\CQRS\\SubscriptionPlans\\DTOs\\DeleteSubscriptionPlanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:23:01.754Z",
+              "WhenOpened": "2025-04-06T15:14:33.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ActivityLoggerService.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Common\\Services\\ActivityLoggerService.cs",
-              "RelativeDocumentMoniker": "Application\\Common\\Services\\ActivityLoggerService.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Common\\Services\\ActivityLoggerService.cs",
-              "RelativeToolTip": "Application\\Common\\Services\\ActivityLoggerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SupportTicketProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Mappings\\SupportTicketProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Mappings\\SupportTicketProfile.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Mappings\\SupportTicketProfile.cs",
+              "RelativeToolTip": "Application\\Mappings\\SupportTicketProfile.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:22:08.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dal.SqlServer",
-              "DocumentMoniker": "C:\\Users\\Taleh\\Source\\Repos\\ProFix\\Dal.SqlServer\\Dal.SqlServer.csproj",
-              "RelativeDocumentMoniker": "Dal.SqlServer\\Dal.SqlServer.csproj",
-              "ToolTip": "C:\\Users\\Taleh\\Source\\Repos\\ProFix\\Dal.SqlServer\\Dal.SqlServer.csproj",
-              "RelativeToolTip": "Dal.SqlServer\\Dal.SqlServer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-29T20:21:58.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Repository",
-              "DocumentMoniker": "C:\\Users\\Taleh\\Source\\Repos\\ProFix\\Repository\\Repository.csproj",
-              "RelativeDocumentMoniker": "Repository\\Repository.csproj",
-              "ToolTip": "C:\\Users\\Taleh\\Source\\Repos\\ProFix\\Repository\\Repository.csproj",
-              "RelativeToolTip": "Repository\\Repository.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-29T20:21:53.145Z",
+              "WhenOpened": "2025-04-06T15:09:53.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\NotificationController.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\NotificationController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE0AAAAgAAAAAAAAAA==",
+              "Title": "SubscriptionPlan.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Domain\\Entities\\SubscriptionPlan.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\SubscriptionPlan.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Domain\\Entities\\SubscriptionPlan.cs",
+              "RelativeToolTip": "Domain\\Entities\\SubscriptionPlan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:21:47.891Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MessageController.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\MessageController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\MessageController.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\MessageController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\MessageController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:21:44.39Z",
+              "WhenOpened": "2025-04-06T14:51:27.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GuaranteeDocumentController.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\GuaranteeDocumentController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\GuaranteeDocumentController.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\GuaranteeDocumentController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\GuaranteeDocumentController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEkAAAA3AAAAAAAAAA==",
+              "Title": "CreateSupportTicketHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SupportTickets\\Commands\\Handlers\\CreateSupportTicketHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\SupportTickets\\Commands\\Handlers\\CreateSupportTicketHandler.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SupportTickets\\Commands\\Handlers\\CreateSupportTicketHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\SupportTickets\\Commands\\Handlers\\CreateSupportTicketHandler.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:21:39.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FileUploadController.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\FileUploadController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\FileUploadController.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\FileUploadController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\FileUploadController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:21:35.994Z",
+              "WhenOpened": "2025-04-06T15:03:38.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ClientProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\ClientProfileController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ClientProfileController.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\ClientProfileController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ClientProfileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAA==",
+              "Title": "SupportTicketController.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\SupportTicketController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\SupportTicketController.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\SupportTicketController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\SupportTicketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:21:29.375Z",
+              "WhenOpened": "2025-04-06T15:02:43.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SubscriptionPlanController.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\SubscriptionPlanController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\SubscriptionPlanController.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\SubscriptionPlanController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\SubscriptionPlanController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:02:38.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateSubscriptionPlanHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\Commands\\Handlers\\CreateSubscriptionPlanHandler.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\SubscriptionPlans\\Commands\\Handlers\\CreateSubscriptionPlanHandler.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\Commands\\Handlers\\CreateSubscriptionPlanHandler.cs",
+              "RelativeToolTip": "Application\\CQRS\\SubscriptionPlans\\Commands\\Handlers\\CreateSubscriptionPlanHandler.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAABsAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:02:05.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "CertificateController.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\CertificateController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\CertificateController.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\CertificateController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\CertificateController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Title": "CreateSubscriptionPlanRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\Commands\\Requests\\CreateSubscriptionPlanRequest.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\SubscriptionPlans\\Commands\\Requests\\CreateSubscriptionPlanRequest.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\Commands\\Requests\\CreateSubscriptionPlanRequest.cs",
+              "RelativeToolTip": "Application\\CQRS\\SubscriptionPlans\\Commands\\Requests\\CreateSubscriptionPlanRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:21:22.93Z",
+              "WhenOpened": "2025-04-06T15:01:55.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "ActivityLogController.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\ActivityLogController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\ActivityLogController.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\WebApi\\Controllers\\ActivityLogController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\ActivityLogController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Title": "CreateSubscriptionPlanResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\Commands\\Responses\\CreateSubscriptionPlanResponse.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\SubscriptionPlans\\Commands\\Responses\\CreateSubscriptionPlanResponse.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\Commands\\Responses\\CreateSubscriptionPlanResponse.cs",
+              "RelativeToolTip": "Application\\CQRS\\SubscriptionPlans\\Commands\\Responses\\CreateSubscriptionPlanResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:21:15.731Z",
+              "WhenOpened": "2025-04-06T15:01:48.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IActivityLoggerService.cs",
-              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Common\\Interfaces\\IActivityLoggerService.cs",
-              "RelativeDocumentMoniker": "Application\\Common\\Interfaces\\IActivityLoggerService.cs",
-              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\Common\\Interfaces\\IActivityLoggerService.cs",
-              "RelativeToolTip": "Application\\Common\\Interfaces\\IActivityLoggerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Title": "CreateSubscriptionPlanDto.cs",
+              "DocumentMoniker": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\DTOs\\CreateSubscriptionPlanDto.cs",
+              "RelativeDocumentMoniker": "Application\\CQRS\\SubscriptionPlans\\DTOs\\CreateSubscriptionPlanDto.cs",
+              "ToolTip": "C:\\Users\\Taleh\\source\\repos\\ProFix\\Application\\CQRS\\SubscriptionPlans\\DTOs\\CreateSubscriptionPlanDto.cs",
+              "RelativeToolTip": "Application\\CQRS\\SubscriptionPlans\\DTOs\\CreateSubscriptionPlanDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:20:56.395Z",
+              "WhenOpened": "2025-04-06T14:52:02.009Z",
               "EditorCaption": ""
             }
           ]

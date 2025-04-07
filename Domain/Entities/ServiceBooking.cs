@@ -16,7 +16,7 @@ public class ServiceBooking : BaseEntity
     public int StatusId { get; set; }
     public DateTime? ScheduledDate { get; set; }
 
-    public ClientProfile? ClientProfile { get; set; }
-    public ServiceProviderProfile? ServiceProviderProfile { get; set; }
-    public ServiceBookingStatus? Status { get; set; }
+    public ClientProfile ClientProfile { get; set; }
+    public ServiceProviderProfile ServiceProviderProfile { get; set; }
+    public ServiceBookingStatus Status { get; set; }
 }
